@@ -30,7 +30,7 @@ namespace SurfKnifeFix
         {
             if (player == null || !player.IsValid) return;
 
-            if (!HasWeapon(player, "knife"))
+            if (!HasWeapon(player, "weapon_knife"))
             {
                 AddTimer(0, () => player.GiveNamedItem("weapon_knife"));
             }
