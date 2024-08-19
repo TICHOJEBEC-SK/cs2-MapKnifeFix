@@ -1,5 +1,5 @@
 <h1 align="center">
-  CS2 Surf Knife Fix
+  CS2 Map Knife Fix
 </h1>
 
 <p align="center">
