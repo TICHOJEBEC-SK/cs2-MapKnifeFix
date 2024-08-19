@@ -2,13 +2,13 @@
 using CounterStrikeSharp.API.Modules.Commands;
 using CounterStrikeSharp.API.Modules.Utils;
 
-namespace SurfKnifeFix
+namespace MapKnifeFix
 {
-    public partial class SurfKnifeFix : BasePlugin
+    public partial class MapKnifeFix : BasePlugin
     {
         private readonly Dictionary<CCSPlayerController, DateTime> playerLastCommandTime = new Dictionary<CCSPlayerController, DateTime>();
         public override string ModuleAuthor => "TICHOJEBEC";
-        public override string ModuleName => "Surf Knife Fix";
+        public override string ModuleName => "Map Knife Fix";
         public override string ModuleVersion => "v1.0";
 
         public override void Load(bool hotReload)
